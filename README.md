@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="media/framedocklogo.png" width="400">
+</p>
 # FrameDock
 A custom dock for Linux operating systems to give you extra control over your operating system, especially with easy macros and other quick functions.
 
