@@ -1,7 +1,14 @@
 [project]
 name = "framedock"
 version = "0.1.0"
+description = "GTK spotlight-style launcher"
+readme = "README.md"
+requires-python = ">=3.8"
 dependencies = ["requests"]
 
 [project.scripts]
 framedock = "framedock.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
