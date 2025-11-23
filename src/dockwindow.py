@@ -9,7 +9,6 @@ import math
 import threading
 import requests
 
-
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 apihost = "https://api.silverflag.net"
@@ -70,7 +69,10 @@ class SpotlightSearch:
         desktop_dirs = [
             '/usr/share/applications',
             '/usr/local/share/applications',
-            os.path.expanduser('~/.local/share/applications')
+            os.path.expanduser('~/.local/share/applications'),
+            '/var/lib/flatpak/exports/share/applications',
+            os.path.expanduser('~/.local/share/flatpak/exports/share/applications'),
+            '/var/lib/snapd/desktop/applications'
         ]
         
         for desktop_dir in desktop_dirs:
