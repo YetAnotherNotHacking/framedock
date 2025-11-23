@@ -10,4 +10,9 @@ The dock has the following features:
  - have built in dictionary and caclulator and ai search to act like spotlight
 
 ## Installation
-Soon.
+You can download the package from Pypi!
+```
+pip3 install framedock
+```
+One it installs, you should have the command `framedock` installed on your system. To get this working, add it to your desktop manager's shortcut
+key manager to be able to launch it with a keybind. This is the most secure way to do this without making what is effectively a keylogger.
