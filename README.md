@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/framedocklogo.png" width="400">
+  <img src="media/framedocklogo.png" width="300">
 </p>
 
 # FrameDock
